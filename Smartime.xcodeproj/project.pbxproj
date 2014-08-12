@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		779D888AF0B74DCFA67508E4 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AE228F1F3564E3DA778ACFC /* libPods.a */; };
+		D77DEC0818F759E8006CB68A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77DEC0718F759E8006CB68A /* CoreData.framework */; };
+		D77DEC0A18F75CAB006CB68A /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D77DEC0918F75CAB006CB68A /* CoreText.framework */; };
+		D77DEC1418F77395006CB68A /* ViewCodeController.m in Sources */ = {isa = PBXBuildFile; fileRef = D77DEC1318F77395006CB68A /* ViewCodeController.m */; };
+		D77DEC1818F84CC3006CB68A /* DatabaseV1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D77DEC1618F84CC3006CB68A /* DatabaseV1.xcdatamodeld */; };
+		D77DEC1B18F84DA7006CB68A /* ConfigData.m in Sources */ = {isa = PBXBuildFile; fileRef = D77DEC1A18F84DA7006CB68A /* ConfigData.m */; };
+		D7C7AE8218F2244400A216E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C7AE8118F2244400A216E6 /* Foundation.framework */; };
+		D7C7AE8418F2244400A216E6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C7AE8318F2244400A216E6 /* CoreGraphics.framework */; };
+		D7C7AE8618F2244400A216E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C7AE8518F2244400A216E6 /* UIKit.framework */; };
+		D7C7AE8C18F2244400A216E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7C7AE8A18F2244400A216E6 /* InfoPlist.strings */; };
+		D7C7AE8E18F2244400A216E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C7AE8D18F2244400A216E6 /* main.m */; };
+		D7C7AE9218F2244400A216E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C7AE9118F2244400A216E6 /* AppDelegate.m */; };
+		D7C7AE9518F2244400A216E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7C7AE9318F2244400A216E6 /* Main.storyboard */; };
+		D7C7AE9818F2244400A216E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C7AE9718F2244400A216E6 /* ViewController.m */; };
+		D7C7AE9A18F2244400A216E6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7C7AE9918F2244400A216E6 /* Images.xcassets */; };
+		D7C7AEA118F2244400A216E6 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C7AEA018F2244400A216E6 /* XCTest.framework */; };
+		D7C7AEA218F2244400A216E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C7AE8118F2244400A216E6 /* Foundation.framework */; };
+		D7C7AEA318F2244400A216E6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7C7AE8518F2244400A216E6 /* UIKit.framework */; };
+		D7C7AEAB18F2244500A216E6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7C7AEA918F2244500A216E6 /* InfoPlist.strings */; };
+		D7C7AEAD18F2244500A216E6 /* SmartimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C7AEAC18F2244500A216E6 /* SmartimeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7C7AEA418F2244400A216E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7C7AE7618F2244400A216E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7C7AE7D18F2244400A216E6;
+			remoteInfo = Smartime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AE228F1F3564E3DA778ACFC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		41CF95D870494648943D9AE0 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		D77DEC0718F759E8006CB68A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D77DEC0918F75CAB006CB68A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		D77DEC1218F77395006CB68A /* ViewCodeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewCodeController.h; sourceTree = "<group>"; };
+		D77DEC1318F77395006CB68A /* ViewCodeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewCodeController.m; sourceTree = "<group>"; };
+		D77DEC1718F84CC3006CB68A /* DatabaseV1.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DatabaseV1.xcdatamodel; sourceTree = "<group>"; };
+		D77DEC1918F84DA7006CB68A /* ConfigData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ConfigData.h; path = "Core Data/ConfigData.h"; sourceTree = "<group>"; };
+		D77DEC1A18F84DA7006CB68A /* ConfigData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ConfigData.m; path = "Core Data/ConfigData.m"; sourceTree = "<group>"; };
+		D7C7AE7E18F2244400A216E6 /* Smartime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Smartime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C7AE8118F2244400A216E6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D7C7AE8318F2244400A216E6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D7C7AE8518F2244400A216E6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D7C7AE8918F2244400A216E6 /* Smartime-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Smartime-Info.plist"; sourceTree = "<group>"; };
+		D7C7AE8B18F2244400A216E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D7C7AE8D18F2244400A216E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D7C7AE8F18F2244400A216E6 /* Smartime-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smartime-Prefix.pch"; sourceTree = "<group>"; };
+		D7C7AE9018F2244400A216E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D7C7AE9118F2244400A216E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D7C7AE9418F2244400A216E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7C7AE9618F2244400A216E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D7C7AE9718F2244400A216E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D7C7AE9918F2244400A216E6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D7C7AE9F18F2244400A216E6 /* SmartimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7C7AEA018F2244400A216E6 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D7C7AEA818F2244500A216E6 /* SmartimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartimeTests-Info.plist"; sourceTree = "<group>"; };
+		D7C7AEAA18F2244500A216E6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D7C7AEAC18F2244500A216E6 /* SmartimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartimeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7C7AE7B18F2244400A216E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D77DEC0A18F75CAB006CB68A /* CoreText.framework in Frameworks */,
+				D77DEC0818F759E8006CB68A /* CoreData.framework in Frameworks */,
+				D7C7AE8418F2244400A216E6 /* CoreGraphics.framework in Frameworks */,
+				D7C7AE8618F2244400A216E6 /* UIKit.framework in Frameworks */,
+				D7C7AE8218F2244400A216E6 /* Foundation.framework in Frameworks */,
+				779D888AF0B74DCFA67508E4 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C7AE9C18F2244400A216E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C7AEA118F2244400A216E6 /* XCTest.framework in Frameworks */,
+				D7C7AEA318F2244400A216E6 /* UIKit.framework in Frameworks */,
+				D7C7AEA218F2244400A216E6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D77DEC1118F77351006CB68A /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				D77DEC1618F84CC3006CB68A /* DatabaseV1.xcdatamodeld */,
+				D77DEC1918F84DA7006CB68A /* ConfigData.h */,
+				D77DEC1A18F84DA7006CB68A /* ConfigData.m */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		D7C7AE7518F2244400A216E6 = {
+			isa = PBXGroup;
+			children = (
+				D7C7AE8718F2244400A216E6 /* Smartime */,
+				D7C7AEA618F2244400A216E6 /* SmartimeTests */,
+				D7C7AE8018F2244400A216E6 /* Frameworks */,
+				D7C7AE7F18F2244400A216E6 /* Products */,
+				41CF95D870494648943D9AE0 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		D7C7AE7F18F2244400A216E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7C7AE7E18F2244400A216E6 /* Smartime.app */,
+				D7C7AE9F18F2244400A216E6 /* SmartimeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7C7AE8018F2244400A216E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D77DEC0918F75CAB006CB68A /* CoreText.framework */,
+				D77DEC0718F759E8006CB68A /* CoreData.framework */,
+				D7C7AE8118F2244400A216E6 /* Foundation.framework */,
+				D7C7AE8318F2244400A216E6 /* CoreGraphics.framework */,
+				D7C7AE8518F2244400A216E6 /* UIKit.framework */,
+				D7C7AEA018F2244400A216E6 /* XCTest.framework */,
+				1AE228F1F3564E3DA778ACFC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7C7AE8718F2244400A216E6 /* Smartime */ = {
+			isa = PBXGroup;
+			children = (
+				D77DEC1118F77351006CB68A /* Core Data */,
+				D7C7AE9018F2244400A216E6 /* AppDelegate.h */,
+				D7C7AE9118F2244400A216E6 /* AppDelegate.m */,
+				D7C7AE9318F2244400A216E6 /* Main.storyboard */,
+				D7C7AE9618F2244400A216E6 /* ViewController.h */,
+				D7C7AE9718F2244400A216E6 /* ViewController.m */,
+				D77DEC1218F77395006CB68A /* ViewCodeController.h */,
+				D77DEC1318F77395006CB68A /* ViewCodeController.m */,
+				D7C7AE9918F2244400A216E6 /* Images.xcassets */,
+				D7C7AE8818F2244400A216E6 /* Supporting Files */,
+			);
+			path = Smartime;
+			sourceTree = "<group>";
+		};
+		D7C7AE8818F2244400A216E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7C7AE8918F2244400A216E6 /* Smartime-Info.plist */,
+				D7C7AE8A18F2244400A216E6 /* InfoPlist.strings */,
+				D7C7AE8D18F2244400A216E6 /* main.m */,
+				D7C7AE8F18F2244400A216E6 /* Smartime-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D7C7AEA618F2244400A216E6 /* SmartimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7C7AEAC18F2244500A216E6 /* SmartimeTests.m */,
+				D7C7AEA718F2244500A216E6 /* Supporting Files */,
+			);
+			path = SmartimeTests;
+			sourceTree = "<group>";
+		};
+		D7C7AEA718F2244500A216E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D7C7AEA818F2244500A216E6 /* SmartimeTests-Info.plist */,
+				D7C7AEA918F2244500A216E6 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7C7AE7D18F2244400A216E6 /* Smartime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7C7AEB018F2244500A216E6 /* Build configuration list for PBXNativeTarget "Smartime" */;
+			buildPhases = (
+				41713175388740BC9102FF12 /* Check Pods Manifest.lock */,
+				D7C7AE7A18F2244400A216E6 /* Sources */,
+				D7C7AE7B18F2244400A216E6 /* Frameworks */,
+				D7C7AE7C18F2244400A216E6 /* Resources */,
+				3D9986B9849340BF92EF632C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Smartime;
+			productName = Smartime;
+			productReference = D7C7AE7E18F2244400A216E6 /* Smartime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7C7AE9E18F2244400A216E6 /* SmartimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7C7AEB318F2244500A216E6 /* Build configuration list for PBXNativeTarget "SmartimeTests" */;
+			buildPhases = (
+				D7C7AE9B18F2244400A216E6 /* Sources */,
+				D7C7AE9C18F2244400A216E6 /* Frameworks */,
+				D7C7AE9D18F2244400A216E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7C7AEA518F2244400A216E6 /* PBXTargetDependency */,
+			);
+			name = SmartimeTests;
+			productName = SmartimeTests;
+			productReference = D7C7AE9F18F2244400A216E6 /* SmartimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7C7AE7618F2244400A216E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Ricardo Pereira";
+				TargetAttributes = {
+					D7C7AE7D18F2244400A216E6 = {
+						DevelopmentTeam = JC9BAC9Y39;
+					};
+					D7C7AE9E18F2244400A216E6 = {
+						TestTargetID = D7C7AE7D18F2244400A216E6;
+					};
+				};
+			};
+			buildConfigurationList = D7C7AE7918F2244400A216E6 /* Build configuration list for PBXProject "Smartime" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7C7AE7518F2244400A216E6;
+			productRefGroup = D7C7AE7F18F2244400A216E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7C7AE7D18F2244400A216E6 /* Smartime */,
+				D7C7AE9E18F2244400A216E6 /* SmartimeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7C7AE7C18F2244400A216E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C7AE9A18F2244400A216E6 /* Images.xcassets in Resources */,
+				D7C7AE8C18F2244400A216E6 /* InfoPlist.strings in Resources */,
+				D7C7AE9518F2244400A216E6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C7AE9D18F2244400A216E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C7AEAB18F2244500A216E6 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D9986B9849340BF92EF632C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41713175388740BC9102FF12 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7C7AE7A18F2244400A216E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C7AE9818F2244400A216E6 /* ViewController.m in Sources */,
+				D7C7AE9218F2244400A216E6 /* AppDelegate.m in Sources */,
+				D77DEC1418F77395006CB68A /* ViewCodeController.m in Sources */,
+				D77DEC1B18F84DA7006CB68A /* ConfigData.m in Sources */,
+				D7C7AE8E18F2244400A216E6 /* main.m in Sources */,
+				D77DEC1818F84CC3006CB68A /* DatabaseV1.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7C7AE9B18F2244400A216E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7C7AEAD18F2244500A216E6 /* SmartimeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7C7AEA518F2244400A216E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7C7AE7D18F2244400A216E6 /* Smartime */;
+			targetProxy = D7C7AEA418F2244400A216E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7C7AE8A18F2244400A216E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7C7AE8B18F2244400A216E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D7C7AE9318F2244400A216E6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7C7AE9418F2244400A216E6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7C7AEA918F2244500A216E6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7C7AEAA18F2244500A216E6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7C7AEAE18F2244500A216E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D7C7AEAF18F2244500A216E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7C7AEB118F2244500A216E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41CF95D870494648943D9AE0 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smartime/Smartime-Prefix.pch";
+				INFOPLIST_FILE = "Smartime/Smartime-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "256F79C7-0BE7-47E0-A50C-F682523C87F1";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D7C7AEB218F2244500A216E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41CF95D870494648943D9AE0 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smartime/Smartime-Prefix.pch";
+				INFOPLIST_FILE = "Smartime/Smartime-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "95F0C4D5-FED9-4545-897B-8E72263ACEAC";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D7C7AEB418F2244500A216E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Smartime.app/Smartime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smartime/Smartime-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SmartimeTests/SmartimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D7C7AEB518F2244500A216E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Smartime.app/Smartime";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Smartime/Smartime-Prefix.pch";
+				INFOPLIST_FILE = "SmartimeTests/SmartimeTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7C7AE7918F2244400A216E6 /* Build configuration list for PBXProject "Smartime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C7AEAE18F2244500A216E6 /* Debug */,
+				D7C7AEAF18F2244500A216E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7C7AEB018F2244500A216E6 /* Build configuration list for PBXNativeTarget "Smartime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C7AEB118F2244500A216E6 /* Debug */,
+				D7C7AEB218F2244500A216E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7C7AEB318F2244500A216E6 /* Build configuration list for PBXNativeTarget "SmartimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7C7AEB418F2244500A216E6 /* Debug */,
+				D7C7AEB518F2244500A216E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D77DEC1618F84CC3006CB68A /* DatabaseV1.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D77DEC1718F84CC3006CB68A /* DatabaseV1.xcdatamodel */,
+			);
+			currentVersion = D77DEC1718F84CC3006CB68A /* DatabaseV1.xcdatamodel */;
+			name = DatabaseV1.xcdatamodeld;
+			path = "Core Data/DatabaseV1.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D7C7AE7618F2244400A216E6 /* Project object */;
+}
